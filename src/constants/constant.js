@@ -36,59 +36,73 @@ export const skillSets = [
   {
     icon: <FaHtml5 />,
     name: "HTML",
+    duration: 1,
   },
   {
     icon: <FaCss3Alt />,
     name: "CSS3",
+    duration: 1.5,
   },
   {
     icon: <IoLogoJavascript />,
     name: "JAVASCRIPT",
+    duration: 2,
   },
   {
     icon: <FaReact />,
     name: "REACT JS",
+    duration: 2.5,
   },
   {
     icon: <SiNextdotjs />,
     name: "NEXT JS",
+    duration: 1.3,
   },
   {
     icon: <IoLogoSass />,
     name: "SASS",
+    duration: 2.1,
   },
   {
     icon: <FaNodeJs />,
     name: "NODE JS",
+    duration: 2.8,
   },
   {
     icon: <SiExpress />,
     name: "EXPRESS JS",
+    duration: 1.4,
   },
 
   {
     icon: <SiMongodb />,
     name: "MONGODB",
+    duration: 1.7,
   },
   {
     icon: <SiNestjs />,
     name: "NEST JS",
+    duration: 1.5,
   },
   {
     icon: <BiLogoPostgresql />,
     name: "POSTGRESQL",
+    duration: 0.9,
   },
   {
     icon: <SiPrisma />,
     name: "PRISMA",
+    duration: 1.9,
   },
   {
     icon: <FaNpm />,
     name: "NPM",
+    duration: 1.7,
   },
   {
     icon: <TbBrandReactNative />,
     name: "REACT NATIVE",
+    duration: 2.7,
   },
 ];
 

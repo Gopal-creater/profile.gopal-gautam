@@ -7,6 +7,18 @@ import { skillSets } from "@/constants/constant";
 import { BiSolidShoppingBags } from "react-icons/bi";
 
 const page = () => {
+  const iconVariants = (duration) => ({
+    initial: { y: -10 },
+    animate: {
+      y: [10, -10],
+      transition: {
+        duration,
+        ease: "linear",
+        repeat: Infinity,
+        repeatType: "reverse",
+      },
+    },
+  });
   return (
     <section className="h-full container mx-auto xl:pt-8 xl:pb-24">
       <div className="w-full h-full flex flex-col xl:flex-row gap-6">
@@ -57,13 +69,16 @@ const page = () => {
         <div className="mt-8 flex flex-wrap justify-center gap-8 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-12">
           {skillSets.map((skill, index) => {
             return (
-              <div
+              <motion.div
+                variants={iconVariants(skill.duration)}
+                initial="initial"
+                animate="animate"
                 key={index}
                 className="flex flex-col items-center min-w-[100px] text-center"
               >
                 {React.cloneElement(skill.icon, { className: "w-12 h-12" })}
                 <span className="mt-2 text-secondary">{skill.name}</span>
-              </div>
+              </motion.div>
             );
           })}
         </div>
