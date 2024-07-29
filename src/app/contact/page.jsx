@@ -41,7 +41,7 @@ const ContactPage = () => {
   };
 
   return (
-    <section className="container mt-10 flex flex-col xl:flex-row h-full w-full gap-4 ">
+    <section className="container mb-8 flex flex-col xl:flex-row h-full w-full gap-4 xl:pt-8 xl:pb-24">
       {/* TEXT CONTAINER */}
       <div className="flex-1 flex justify-center items-center text-center mb-8 xl:mb-0">
         <div className="flex flex-row justify-center items-center">

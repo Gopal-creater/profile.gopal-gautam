@@ -29,7 +29,7 @@ const item = {
 
 const page = () => {
   return (
-    <section className="container mt-6 mb-24">
+    <section className="container mt-6 mb-8 xl:mb-24">
       <h1 className="text-2xl">Some Of the projects</h1>
       <motion.div
         className="mt-6 grid grid-cols-1 xl:grid-cols-2 gap-6 text-accent"

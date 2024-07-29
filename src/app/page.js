@@ -44,7 +44,7 @@ export default function Home() {
             for impact. Let's connect and code a brighter future! 🌈✨
           </p>
           <div className="flex flex-col xl:flex-row items-center gap-6">
-            <a href="/GopalResume.pdf" download>
+            <a href="./assets/GopalResume.pdf" download>
               <Button
                 variant="outline"
                 size="lg"

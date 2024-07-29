@@ -20,7 +20,7 @@ const page = () => {
     },
   });
   return (
-    <section className="h-full container mx-auto xl:pt-8 xl:pb-24">
+    <section className="h-full container mb-8 mx-auto xl:pt-8 xl:pb-24">
       <div className="w-full h-full flex flex-col xl:flex-row gap-6">
         {/* Photo */}
         <div className=" h-full">
