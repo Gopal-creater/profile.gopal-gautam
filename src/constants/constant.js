@@ -160,7 +160,7 @@ export const projects = [
 
 export const stats = [
   {
-    num: 2,
+    num: 3,
     text: "Years Of Experience",
   },
   {
