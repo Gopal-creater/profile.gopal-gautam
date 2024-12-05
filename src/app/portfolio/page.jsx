@@ -76,16 +76,16 @@ const page = () => {
             </div>
           </motion.div>
         ))}
-        <div className=" flex justify-center items-center">
-          <a
-            href="https://github.com/Gopal-creater"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button className="mt-6 mb-8">More Projects</Button>
-          </a>
-        </div>
       </motion.div>
+      <div className=" flex justify-center items-center mt-8">
+        <a
+          href="https://github.com/Gopal-creater"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className="mt-6 mb-8">More Projects</Button>
+        </a>
+      </div>
     </section>
   );
 };

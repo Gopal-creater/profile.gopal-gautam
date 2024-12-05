@@ -118,6 +118,19 @@ const page = () => {
               <span className="text-secondary">Fullstack Developer</span>
             </p>
           </div>
+
+          <div className="flex-1 flex gap-4 items-center justify-center xl:border-l-2 xl:border-gray-300">
+            <p className="xl:text-right text-center">
+              <span className="bg-secondary text-primary font-bold p-2 rounded-full">
+                2024 - Present
+              </span>
+              <br />
+              Untoldcine
+              <br />
+              <span className="text-secondary">Fullstack Developer</span>
+            </p>
+            <BiSolidShoppingBags className="w-12 h-12" />
+          </div>
         </div>
       </motion.div>
     </section>

@@ -128,6 +128,16 @@ export const socialLinks = [
 export const projects = [
   {
     num: "01",
+    category: "fullstack",
+    title: "Untoldcine",
+    description: "Streaming platform",
+    stack: ["Nextjs, Express js, AWS, MongoDB", "Tailwind css"],
+    image: "/assets/work/",
+    link: "https://www.untoldcine.com/",
+    github: "/",
+  },
+  {
+    num: "02",
     category: "frontend",
     title: "Sonic Data",
     description: "Watermarking system for audio files",
@@ -137,7 +147,7 @@ export const projects = [
     github: "/",
   },
   {
-    num: "02",
+    num: "03",
     category: "frontend",
     title: "TuteCode",
     description: "Tutorials of javascript frameworks",
@@ -147,7 +157,7 @@ export const projects = [
     github: "https://main.dc67afsc3c5c7.amplifyapp.com/",
   },
   {
-    num: "03",
+    num: "04",
     category: "Backend",
     title: "TuteCode",
     description: "Tutorials of javascript frameworks",
