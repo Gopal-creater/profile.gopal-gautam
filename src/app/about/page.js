@@ -122,7 +122,7 @@ const page = () => {
           <div className="flex-1 flex gap-4 items-center justify-center xl:border-l-2 xl:border-gray-300">
             <p className="xl:text-right text-center">
               <span className="bg-secondary text-primary font-bold p-2 rounded-full">
-                2024 - Present
+                2024 - 2025
               </span>
               <br />
               Untoldcine
@@ -130,6 +130,19 @@ const page = () => {
               <span className="text-secondary">Fullstack Developer</span>
             </p>
             <BiSolidShoppingBags className="w-12 h-12" />
+          </div>
+
+          <div className="flex-1 flex gap-4 items-center justify-center">
+            <BiSolidShoppingBags className="w-12 h-12" />
+            <p className="xl:text-left text-center">
+              <span className="bg-secondary text-primary font-bold p-2 rounded-full">
+                2025 - present
+              </span>
+              <br />
+              Centra Windows
+              <br />
+              <span className="text-secondary">Fullstack Developer</span>
+            </p>
           </div>
         </div>
       </motion.div>
